@@ -56,7 +56,7 @@ jobs:
         uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-          subscription-id: 0603bd7c-de64-4d65-82a9-a2e9b04e0308
+       
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
